@@ -1,0 +1,27 @@
+{
+  "name": "annotate-javascript",
+  "dependencies": {
+    "@babel/parser": "^7.9.4",
+    "estraverse": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.4"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": "off"
+    }
+  }
+}
